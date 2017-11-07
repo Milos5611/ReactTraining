@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Roboto";
+    src: url($fontsPath + "Roboto-Regular.eot");
+    src: url($fontsPath + "Roboto-Regular.eot?#iefix") format("embedded-opentype"),
+    url($fontsPath + "Roboto-Regular.woff2") format("woff2"),
+    url($fontsPath + "Roboto-Regular.woff") format("woff"),
+    url($fontsPath + "Roboto-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url($fontsPath + "Roboto-Medium.eot");
+    src: url($fontsPath + "Roboto-Medium.eot?#iefix") format("embedded-opentype"),
+    url($fontsPath + "Roboto-Medium.woff2") format("woff2"),
+    url($fontsPath + "Roboto-Medium.woff") format("woff"),
+    url($fontsPath + "Roboto-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url($fontsPath + "Roboto-Bold.eot");
+    src: url($fontsPath + "Roboto-Bold.eot?#iefix") format("embedded-opentype"),
+    url($fontsPath + "Roboto-Bold.woff2") format("woff2"),
+    url($fontsPath + "Roboto-Bold.woff") format("woff"),
+    url($fontsPath + "Roboto-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}

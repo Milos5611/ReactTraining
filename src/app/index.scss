@@ -1,0 +1,10 @@
+// Style helpers
+@import "style-helpers/variables";
+@import "style-helpers/path";
+@import "style-helpers/font-face";
+@import "style-helpers/mixins";
+@import "style-helpers/typografy";
+
+body {
+    background: rgba(175, 198, 218, 0.2);
+}
