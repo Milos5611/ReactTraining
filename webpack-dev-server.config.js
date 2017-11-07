@@ -25,7 +25,7 @@ const config = {
     devServer: {
         contentBase: __dirname + "/src/www", // Relative directory for base of server
         inline: true,
-        port: 3000, // Port Number
+        port: 5510, // Port Number
         host: "localhost", // Change to "0.0.0.0" for external facing server
     },
     devtool: "eval-source-map",
