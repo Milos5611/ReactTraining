@@ -42,7 +42,6 @@ class Rest {
             [METHOD_KEY]: GET,
             [CROSS_ORIGIN_KEY]: process.env.NODE_ENV !== "production",
             [HEADERS_KEY]: {
-                [AUTHORIZATION_KEY]: `Bearer ${store.getState().login.token}`,
                 [ACCEPT_KEY]: accept
             }
         };
